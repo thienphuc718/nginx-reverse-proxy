@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(adgo-api.duckdns.org www.adgo-api.duckdns.org)
+domains=(api.ad-go.vn www.api.ad-go.vn)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="" # Adding a valid address is strongly recommended

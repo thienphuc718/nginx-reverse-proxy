@@ -13,7 +13,7 @@ Prerequisites:
 
 In order to run it you have to follow these steps:
 - Clone the repository
-- Replace all the occurrences of adgo-api.duckdns.org with your domain
+- Replace all the occurrences of api.ad-go.vn with your domain
 - Replace '<address and port of your service>' with the docker container name of your service and internal docker port (not the exposed one to the host)
 - Your service needs to run inside dockernet network in order to be visible by the proxy!
 - If your service is running outside of docker uncomment bridge mode in the docker-compose.yml and comment out the networks sections 
